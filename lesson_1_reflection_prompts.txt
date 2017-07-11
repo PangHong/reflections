@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+通过比较两个版本的文件以便查找出程序错误的过程是什么？
+
+使用比较文件差异的计算机程序，如Windows平台的FC(find changes)以及Mac和Linux的diff(difference)，查看两个文件的不同之处，从而发现问题的所在
+    Fill in your answer here
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+如何轻松地知晓一个文件的完整历史，以便使你长期作为一个有效率的程序员
+正确的翻译：从长远看，能轻松访问文件的整个历史记录将如何提高编程者的效率？
+
+知道一个文件的历史有助于成为有效率的程序员么？这个问题我还没有想过，平时我的工作中没有使用这个方法，所以我的效率很低，以至于我都没有在意我是否够有效率。
+    Fill in your answer here
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+您认为像在git中手动选择添加一条提交的时机与像Google文档中自动保存版本信息有何利弊？
+
+手动选择使用户可以记录更多的信息，但加重了用户的负担，不过这一点负担是否值得，需要在下一次浏览记录中才能获得，可以记录用户当时的想法。用户有更多的自由在是否保存当前版本，并且可以给每个版本添加记录，使项目进程清晰。
+而自动保存版本信息，仅能保存作者是谁，编辑的时间是什么，这些信息或多或少没有太多的价值。说句题外话，Windows的Word文档如今可以记录文档的变动信息，这也是自动保存的。自动保存只能保存最后一次的成果。
+    Fill in your answer here
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+一些版本控制系统中，例如Git，允许一次提交多个文件，而其他的，例如Google文档，每个文件单独操作，您认为其中的原因何在？
+
+在一个工程构建中，涉及多个文件的修改，所以一次性多个文件提交方便用户操纵。而谷歌文档没有接触过，不清楚。
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+不尚清楚
+git log --stat 详细显示出每一次提交的修改，包括新增或删除的情况
+git diff 第一次提交的识别码 第二次提交的识别码
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+通过使用版本控制系统是如何使你能够大着胆子去做出那些可能会有破坏性的修改？
+
+至少我没有了后顾之忧，如果能够快速回到之前的版本，一切如旧，而且我的破坏性修改也可以记录下来。
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+我想新建一个关于学习Intro to Operating System课程的代码记录工程的项目，记录我的学习过程，同时上传至我的GitHub中，以便我在其他地方可以查看。
+    Fill in your answer here
