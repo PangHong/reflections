@@ -1,0 +1,31 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+什么情况下需要远程代码仓库而不是把所有代码保存在本地？
+在不同的地方办公需要这样做，如果是一个人的代码仓库，当在公司和家中（或者居住地）时都能通过远程代码仓库进行无忧合作。
+或者多个人合作一个项目，需要远程代码仓库。不同的人有不同的电脑，如果代码保存在某一天电脑上，其他人不方便工作。所以，远程代码仓库就是为解决不同办公设备，多人合作的项目而生的。
+    Fill in your answer here
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Fill in your answer here
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fill in your answer here
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Fill in your answer here
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
